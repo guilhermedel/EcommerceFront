@@ -1,6 +1,8 @@
 @import "bootstrap-icons/font/bootstrap-icons.css";
 
-
+:root{
+    --padding: 0.5rem 8rem;
+}
 
 
 *{
@@ -9,6 +11,11 @@
     box-sizing: border-box;
 }
 
+
+
 body{
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 3rem;
+    max-width: 100vw;
+    background-color: var(--bs-gray-100);
 }
